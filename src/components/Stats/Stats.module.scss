@@ -1,0 +1,21 @@
+.container {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.statRow {
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(193, 72%, 73%, 20%);
+    border-radius: 20px;
+}
+
+.highlightedText {
+    color: #42caf0;
+    font-size: 1.3em;
+    font-weight: 500;
+}

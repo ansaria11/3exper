@@ -1,0 +1,31 @@
+.logo {
+    width: 600px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+.title {
+    
+    letter-spacing: -0.04em;
+    line-height: 0.86em;
+    color: #365B6D;
+    font-size: 500px;
+    margin: 0;
+    padding: 0;
+}
+.textContainer {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+    top: 114px;
+    left:231px;
+}
+.subtitle {
+    font-size: 110px;
+    color: #000000;
+    line-height: normal;
+    margin-bottom: 0.2em;
+    margin-top: -0.2em;
+}

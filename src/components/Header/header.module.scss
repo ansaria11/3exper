@@ -1,0 +1,73 @@
+.container {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.textContainer {
+    width: 50%;
+    height: 80vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.boxContainer {
+    width: 40%;
+    height: 80vh
+}
+
+.h1 {
+    font-size: 7em;
+    margin: 0;
+}
+
+.h3 {
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.colouredWord {
+    background: linear-gradient(120deg, #4ea4bc, #42caf0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.button1 {
+    background-color: hsl(193, 72%, 73%, 30%);
+} 
+.button1:hover {
+    translate: 0px -5px;
+}
+.button2:hover {
+    box-shadow: 0 10px 30px rgba(78, 164, 188, 0.4);
+    translate: 0px -5px;
+}
+
+.scrollIndicator {
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-weight: 300;
+    gap: 5px
+}
+
+.scrollText {
+    align-self: center;
+}
+
+.mouseImg {
+    height:3vh;
+    width:auto;
+}
