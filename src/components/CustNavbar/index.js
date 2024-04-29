@@ -13,7 +13,7 @@ export default function CustNavbar() {
                 <img src="/logo.svg"/>
             </div>
             <div className={cn(s.links, inter.className)}>
-                <a className={cn(s.text)}>
+                <a href="/about" className={cn(s.text)}>
                     About Us 
                 </a>
                 <a className={cn(s.text)}>
