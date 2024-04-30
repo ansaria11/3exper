@@ -44,11 +44,18 @@
 }
 
 .button1 {
+    font-size: 1.2em;
     background-color: hsl(193, 72%, 73%, 30%);
 } 
+
+.button2 {
+    font-size: 1.2em;
+}
+
 .button1:hover {
     translate: 0px -5px;
 }
+
 .button2:hover {
     box-shadow: 0 10px 30px rgba(78, 164, 188, 0.4);
     translate: 0px -5px;

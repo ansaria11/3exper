@@ -2,6 +2,7 @@ import {ReactLenis, useLenis} from "@studio-freight/react-lenis"
 import React from "react"
 import s from "./layout.module.scss"
 import cn from "clsx"
+import CustNavbar from "@/components/CustNavbar"
  
 
 export default function Layout({children}) {
@@ -14,6 +15,7 @@ export default function Layout({children}) {
             <ReactLenis root>
                 <main>
                     <div className={cn(s.layout)}>
+                        <CustNavbar/>
                         {children}
                     </div>
                 </main>

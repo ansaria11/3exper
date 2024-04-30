@@ -27,10 +27,14 @@
     gap: 30px;
 }
 
-.button {
+.buy {
     font-size: 1em;
 }
 
-.button:hover {
+.buy:hover {
     box-shadow: 0 10px 30px rgba(78, 164, 188, 0.4);
+}
+
+.imageLink {
+    height: 40px;
 }

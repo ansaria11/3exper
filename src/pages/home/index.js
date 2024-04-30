@@ -21,7 +21,7 @@ export default function Home() {
     <>
       <Layout>
         <div className={cn(s.container, inter.className)}>
-            <CustNavbar/>
+            
             <Header/>
             <Stats/>
             <Introduction/>

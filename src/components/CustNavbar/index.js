@@ -11,7 +11,10 @@ export default function CustNavbar() {
     return (
         <div className={cn(s.container)}>
             <div className={cn(s.logo)}>
-                <img src="/logo.svg"/>
+                <Link href="/">
+                    <img className={cn(s.imageLink)} src="/logo.svg"/>
+                </Link>
+                
             </div>
             <div className={cn(s.links, inter.className)}>
                 <Link href="/about" className={cn(s.text)}>
@@ -28,7 +31,7 @@ export default function CustNavbar() {
                 </a>
             </div>
             <div>
-                <CustButton className={cn(s.button)}>
+                <CustButton className={cn(s.buy)}>
                     Buy Now
                 </CustButton>
             </div>
