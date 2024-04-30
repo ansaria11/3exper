@@ -13,21 +13,21 @@ export default function Why() {
                     <img src="/competition.png" className={cn(s.image)}/>
                     <h3 className={cn(s.cardTitle)}>Inspiring Competition</h3>
                     <p className={cn(s.cardText)}>
-                        We specifically crafted "Ace-Off!" to be fast-paced and highly competitive, nurturing key life skills from an early stage.
+                        We specifically crafted &quot;Ace-Off!&quot; to be fast-paced and highly competitive, nurturing key life skills from an early stage.
                     </p>
                 </div>
                 <div className={cn(s.card)}>
                     <img src="/no-phone.png" className={cn(s.image)}/>
                     <h3 className={cn(s.cardTitle)}>No more screens</h3>
                     <p className={cn(s.cardText)}>
-                        In the current screen apocalypse, we believe that learning is best done face-to-face. Children are becoming increasingly antisocial, so "Ace-Off!" encourages constuctive socialisation.
+                        In the current screen apocalypse, we believe that learning is best done face-to-face. Children are becoming increasingly antisocial, so &quot;Ace-Off!&quot; encourages constuctive socialisation.
                     </p>
                 </div>
                 <div className={cn(s.card)}>
                     <img src="/laugh.png" className={cn(s.image)}/>
                     <h3 className={cn(s.cardTitle)}>Fun!</h3>
                     <p className={cn(s.cardText)}>
-                        We understand that studying can feel like a slog sometimes, so we designed "Ace-Off!" to be genuinely fun. We guarantee that its riveting gameplay will leave you itching to come back.
+                        We understand that studying can feel like a slog sometimes, so we designed &quot;Ace-Off!&quot; to be genuinely fun. We guarantee that its riveting gameplay will leave you itching to come back.
                     </p>
                 </div>
             </div>
