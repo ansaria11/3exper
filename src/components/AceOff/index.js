@@ -29,8 +29,8 @@ export default function AceOff(props) {
         <Canvas className={cn(s.canvas1)}>
             <AceOffModel/>
             <PerspectiveCamera makeDefault position={[0,0,2.5]}/>
-            <ambientLight intensity={2}/>
-            <pointLight ref={plRef} position={[0,0,6]} intensity={2}/>
+            <ambientLight intensity={3}/>
+            <pointLight ref={plRef} position={[0,0,6]} intensity={3}/>
         </Canvas>
     )
 }

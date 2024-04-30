@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 5%;
+    gap: 5%;
+    height: 100vh;
+}
+
+.image {
+   height: 100vh;
+   z-index: 1;
+}
+
+.title {
+    font-size: 4em;
+    margin: 0;
+    z-index: 0;
+}
+
+.titleText {
+    margin: 0;
+    padding: 3%;
+}
+
+.mainPara {
+    font-size: 2em;
+    z-index: 2;
+    
+}
+
+.paraText {
+    margin: 0;
+    padding: 3%;
+}

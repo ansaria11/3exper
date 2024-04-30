@@ -1,8 +1,14 @@
 .container {
-    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.containerCol {
+    background-color: hsla(193, 86%, 33%, 0.1);
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    margin: 5% 0;
 }
 .statRow {
     display: flex;
@@ -10,7 +16,7 @@
     font-size: 3em;
     justify-content: center;
     text-align: center;
-    background-color: hsl(193, 72%, 73%, 20%);
+
     border-radius: 20px;
 }
 
