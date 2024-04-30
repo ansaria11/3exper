@@ -9,7 +9,7 @@ export default function CardFront() {
         <div className={cn(s.container, inter.className)}>
             <img className={cn(s.image)} src="/Q11front4K.png"/>
             <div className={cn(s.pointer, s.p1)}/>
-            <p className={cn(s.text, s.t1)}>"Ace-Off!" contains 56 uniquely designed questions</p>
+            <p className={cn(s.text, s.t1)}>&quot;Ace-Off!&quot; contains 56 uniquely designed questions</p>
         </div>
     )
 }

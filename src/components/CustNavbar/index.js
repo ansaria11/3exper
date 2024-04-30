@@ -2,6 +2,7 @@ import cn from "clsx"
 import s from "./CustNavbar.module.scss"
 import { Barlow, Inter } from "next/font/google"
 import CustButton from "@/components/CustButton";
+import Link from "next/link";
 
 const barlow = Barlow({subsets: ["latin"], weight: "400"});
 const inter = Inter({ subsets: ["latin"] });
@@ -13,9 +14,9 @@ export default function CustNavbar() {
                 <img src="/logo.svg"/>
             </div>
             <div className={cn(s.links, inter.className)}>
-                <a href="/about" className={cn(s.text)}>
+                <Link href="/about" className={cn(s.text)}>
                     About Us 
-                </a>
+                </Link>
                 <a className={cn(s.text)}>
                     Our Products
                 </a>
