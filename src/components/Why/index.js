@@ -24,7 +24,7 @@ export default function Why() {
                     </p>
                 </div>
                 <div className={cn(s.card)}>
-                    <img src="/laugh.png" className={cn(s.image)}/>
+                    <img src="./laugh.png" className={cn(s.image)}/>
                     <h3 className={cn(s.cardTitle)}>Fun!</h3>
                     <p className={cn(s.cardText)}>
                         We understand that studying can feel like a slog sometimes, so we designed &quot;Ace-Off!&quot; to be genuinely fun. We guarantee that its riveting gameplay will leave you itching to come back.
