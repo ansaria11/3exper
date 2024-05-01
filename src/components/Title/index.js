@@ -20,7 +20,7 @@ export default function Title() {
                 </div>
             </div>
             <div>
-                <img src="/logo.svg" className={cn(s.logo)}/>
+                <img src="./images/logo.svg" className={cn(s.logo)}/>
             </div>
         </>
     )

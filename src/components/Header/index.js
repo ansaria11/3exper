@@ -19,7 +19,7 @@ export default function Header() {
                     <CustButton className={cn(s.button2)}>Learn More</CustButton>
                 </div>
                 <div className={cn(s.scrollIndicator, inter.className)}>
-                    <img className={cn(s.mouseImg)} src="./mouse.svg"/>
+                    <img className={cn(s.mouseImg)} src="./images/mouse.svg"/>
                     <p className={cn(s.scrollText)}>scroll to explore</p>
                 </div>
             </div>
