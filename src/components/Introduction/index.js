@@ -5,7 +5,7 @@ import cn from "clsx"
 export default function Introduction() {
     return (
         <div className={cn(s.container)}>
-            <img className={cn(s.image)} src="/sidewaysangledotheraceoff.png"/>
+            <img className={cn(s.image)} src="./sidewaysangledotheraceoff.png"/>
             <div className={cn(s.mainPara)}>
                 <h1 className={cn(s.titleText)}>Introducing <span className={cn(s.specialText)}>Ace-Off!</span></h1>
                 <p className={cn(s.paraText)}>
