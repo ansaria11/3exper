@@ -13,6 +13,7 @@ import Why from "@/components/Why";
 import CardFront from "@/components/CardFront";
 import Stats from "@/components/Stats";
 import Introduction from "@/components/Introduction";
+import Features from "@/components/Features";
 
 const inter = Inter({ subsets: ["latin"] });
 //             <h2 className={cn("h3", s.radSlogan, inter.className)}>Defeating the education gap</h2>
@@ -21,11 +22,11 @@ export default function Home() {
     <>
       <Layout>
         <div className={cn(s.container, inter.className)}>
-            
             <Header/>
             <Stats/>
             <Introduction/>
             <Why/>
+            <Features/>
         </div>
       </Layout>
     </>
