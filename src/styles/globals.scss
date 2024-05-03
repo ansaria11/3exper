@@ -4,5 +4,8 @@ body {
     a, a:hover, a:focus, a:active {
         text-decoration: none;
         color: inherit;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
 }

@@ -4,6 +4,7 @@ import s from "./layout.module.scss"
 import cn from "clsx"
 import CustNavbar from "@/components/CustNavbar"
 import { Inter } from "next/font/google"
+import Footer from "@/components/Footer"
  
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Layout({children}) {
                     <div className={cn(s.layout, inter.className)}>
                         <CustNavbar/>
                         {children}
+                        <Footer/>
                     </div>
                 </main>
             </ReactLenis>
