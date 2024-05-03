@@ -1,0 +1,51 @@
+.container {
+    
+}
+
+.title {
+    font-size: 7em;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.2em;
+}
+
+.instructions {
+    margin: 2% 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 47.5%);
+    grid-template-rows: repeat(3, 50vh);
+    row-gap: 5vh;
+    column-gap: 5%;
+    height: 160vh;
+}
+
+.stepCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 5%;
+}
+
+.instructionTitleText {
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.instructionMainText {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0;
+}
+
+.imageContainer {
+    width: 55%;
+    height: 100%;
+    background-color: hsla(193, 86%, 33%, 0.1);
+    border-radius: 20px;
+}

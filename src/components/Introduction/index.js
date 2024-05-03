@@ -3,9 +3,9 @@ import s from "./Introduction.module.scss"
 import cn from "clsx"
 import CustButton from "../CustButton"
 
-export default function Introduction() {
+export default function Introduction({inputRef}) {
     return (
-        <div className={cn(s.container)}>
+        <div className={cn(s.container)} ref={inputRef}>
             <img className={cn(s.image)} src="./images/sidewaysangledotheraceoff.png"/>
                 <div className={cn(s.mainPara)}>
                     <h1 className={cn(s.titleText)}>Introducing <span className={cn(s.specialText)}>Ace-Off!</span></h1>
@@ -15,7 +15,7 @@ export default function Introduction() {
                         A card game would be perfect!
                     </p>
                     <div className={cn(s.button)}>
-                    <CustButton>
+                    <CustButton className={cn(s.buy)} href="https://www.ye-tradingstation.org.uk/product/ace-card-game?v=2810">
                         Buy Now
                     </CustButton>
                     </div>

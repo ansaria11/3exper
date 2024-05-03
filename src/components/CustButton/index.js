@@ -5,10 +5,10 @@ import { Inter } from "next/font/google"
 
 const inter = Inter({ subsets: ["latin"], weight: "300" });
 
-export default function CustButton({onClick, children, className}) {
+export default function CustButton({href, children, className, onClick}) {
     return (
-            <button type="button" className={cn(className, s.button, inter.className)} onClick={onClick}>
+            <a className={cn(className, s.button, inter.className)} href={href} onClick={onClick}>
                 {children}
-            </button>
+            </a>
     )
 }

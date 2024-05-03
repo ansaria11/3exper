@@ -28,19 +28,19 @@ export default function CustNavbar() {
                     Blog
                 </a>
                 <DropdownMenu className={cn(s.text)} text="Ace-Off!">
-                    <Link className={cn(s.dropdownItem)} href="">
+                    <Link className={cn(s.dropdownItem)} href="/howtoplay">
                         How To Play
                     </Link>
-                    <Link className={cn(s.dropdownItem)} href="">
+                    <Link className={cn(s.dropdownItem)} href="/videosolutions">
                         Video Solutions
                     </Link>
-                    <Link className={cn(s.dropdownItem)} href="">
+                    <Link className={cn(s.dropdownItem)} href="/getcreative">
                         Get Creative
                     </Link>
                 </DropdownMenu>
             </div>
-            <div>
-                <CustButton className={cn(s.buy)}>
+            <div className={cn(s.buttonContainer)}>
+                <CustButton className={cn(s.buy)} href="https://www.ye-tradingstation.org.uk/product/ace-card-game?v=2810">
                     Buy Now
                 </CustButton>
             </div>

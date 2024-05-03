@@ -19,8 +19,8 @@ export default function Features() {
                 <h2 className={cn(s.titleText)}>Innovative Gameplay</h2>
                 <div className={cn(s.mainCardText)}>
                     <p className={cn(s.secondaryCardText)}>
-                        We've added a groundbreaking gameplay mechanic to Ace-Off! to make sure there's never a dull moment while playing. Before a card is drawn,
-                        a dice is rolled to decided the numbers in the question. This keeps everyone on their toes, as answers can't be memorised!
+                        We&apos;ve added a groundbreaking gameplay mechanic to Ace-Off! to make sure there&apos;s never a dull moment while playing. Before a card is drawn,
+                        a dice is rolled to decided the numbers in the question. This keeps everyone on their toes, as answers can&apos;t be memorised!
                     </p>
                 </div>
             </div>

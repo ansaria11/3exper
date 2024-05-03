@@ -4,13 +4,14 @@
     height: calc(100vh - 61px);
     align-content: center;
     justify-content: space-evenly;
-    letter-spacing: -3px;
+    
 }
 
 .titleText {
     font-size: 7em;
     font-weight: 500;
     line-height: 90%;
+    letter-spacing: -3px;
 }
 
 .title {
@@ -26,6 +27,7 @@
 }
 
 .mainCard {
+
     padding: 40px;
     display: grid;
     grid-template-columns: 2;
