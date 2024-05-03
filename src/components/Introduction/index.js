@@ -6,7 +6,7 @@ import CustButton from "../CustButton"
 export default function Introduction({inputRef}) {
     return (
         <div className={cn(s.container)} ref={inputRef}>
-            <img className={cn(s.image)} src="./images/sidewaysangledotheraceoff.png"/>
+            <img className={cn(s.image)} src="/3exper/images/sidewaysangledotheraceoff.png"/>
                 <div className={cn(s.mainPara)}>
                     <h1 className={cn(s.titleText)}>Introducing <span className={cn(s.specialText)}>Ace-Off!</span></h1>
                     <p className={cn(s.paraText)}>

@@ -5,7 +5,7 @@ export default function Features() {
     return (
         <div className={cn(s.container)}>
             <div className={cn(s.c1, s.card)}>
-                <img className={cn(s.icon)} src="./images/difficultyspread.png"/>
+                <img className={cn(s.icon)} src="/3exper/images/difficultyspread.png"/>
                 <h2 className={cn(s.titleText)}>Packed Full of Content</h2>
                 <div className={cn(s.mainCardText)}>
                     <p className={cn(s.secondaryCardText)}>
@@ -15,7 +15,7 @@ export default function Features() {
                 </div>
             </div>
             <div className={cn(s.c2, s.bgBlue, s.card)}>
-                <img className={cn(s.icon)} src="./images/dice.png"/>
+                <img className={cn(s.icon)} src="/3exper/images/dice.png"/>
                 <h2 className={cn(s.titleText)}>Innovative Gameplay</h2>
                 <div className={cn(s.mainCardText)}>
                     <p className={cn(s.secondaryCardText)}>
@@ -25,7 +25,7 @@ export default function Features() {
                 </div>
             </div>
             <div className={cn(s.c3, s.bgBlue, s.card)}>
-                <img className={cn(s.icon)} src="./images/joystick.png"/>
+                <img className={cn(s.icon)} src="/3exper/images/joystick.png"/>
                 <h2 className={cn(s.titleText)}>Brimming with References</h2>
                 <div className={cn(s.mainCardText)}>
                     <p className={cn(s.secondaryCardText)}>
@@ -35,7 +35,7 @@ export default function Features() {
                 </div>
             </div>
             <div className={cn(s.c4, s.card)}>
-                <img className={cn(s.icon)} src="./images/flexibility.png"/>
+                <img className={cn(s.icon)} src="/3exper/images/flexibility.png"/>
                 <h2 className={cn(s.titleText)}>Flexible</h2>
                 <div className={cn(s.mainCardText)}>
                     <p className={cn(s.secondaryCardText)}>
