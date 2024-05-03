@@ -13,7 +13,7 @@ export default function CustNavbar() {
         <div className={cn(s.container)}>
             <div className={cn(s.logo)}>
                 <Link href="/">
-                    <img className={cn(s.imageLink)} src="/3exper/images/logo.svg"/>
+                    <img className={cn(s.imageLink)} src="/images/logo.svg"/>
                 </Link>
                 
             </div>
