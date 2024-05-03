@@ -1,9 +1,10 @@
 .container {
     display: grid;
-    margin: 5%;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-    gap: 10px;
+    margin: 3% 6%;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 80vh 80vh;
+    column-gap: 2%;
+    row-gap: 2%;
 }
 
 .card {
@@ -11,6 +12,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 3%;
+    background: #f5fbff;
+    box-shadow:  20px 20px 60px #d0d5d9,
+                -20px -20px 60px #ffffff;
+    border-radius: 50px;
 }
 
 .c1 {
@@ -23,7 +28,7 @@
     grid-column: 2;
 }
 
-.bgBlue {
+.bbbbgBlue {
     background-color: hsl(193, 72%, 73%, 10%);
     border-radius: 10px;
 }
@@ -31,15 +36,21 @@
 .titleText {
     font-size: 3em;
     text-align: center;
+    margin: 0;
 }
 
 .mainCardText {
     margin: 0 5%;
     font-size: 2em;
     font-weight: 300;
+    text-align: center;
+}
+
+.secondaryCardText {
+    margin: 0;
 }
 
 .icon {
     align-self: center;
-    width: 10vw;
+    height: 10vw;
 }

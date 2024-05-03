@@ -1,0 +1,40 @@
+.container {
+    display: block;
+    position: relative;
+
+}
+
+.menuItems {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 15px;
+    margin-top: 0px;
+    z-index: 1000;
+}
+
+.textContainer {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.image {
+    height: 0.5em;
+    align-self: center;
+    justify-self: center;
+}
+
+.container:hover {
+    .menuItems {
+        display: block;
+    }
+}
+.menuItems:hover {
+    display: block;
+}

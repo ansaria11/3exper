@@ -1,0 +1,68 @@
+.container  {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 61px);
+    align-content: center;
+    justify-content: space-evenly;
+    letter-spacing: -3px;
+}
+
+.titleText {
+    font-size: 7em;
+    font-weight: 500;
+    line-height: 90%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-self: center;
+}
+
+.gap {
+    display: inline-block;
+    width: 5vw;
+}
+
+.mainCard {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    gap: 20px;
+}
+
+.product {
+    background: #f5fbff;
+    box-shadow:  20px 20px 60px #d0d5d9,
+                -20px -20px 60px #ffffff;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.p1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.p2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.image {
+    align-self: center;
+    height: 80%;
+}
+
+.productText {
+    margin: 0;
+}

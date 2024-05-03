@@ -6,6 +6,7 @@
     padding: 10px 20px;
     justify-content: space-between;
     border-bottom: 1px solid rgb(238, 238, 238);
+    position: relative;
 }
 
 .logo {
@@ -19,6 +20,16 @@
     font-size: 1em;
     display: inline;
     align-content: center;
+}
+
+.dropdownItem {
+    display: block;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.dropdownItem:hover {
+    background-color: rgba(175, 175, 175, 0.2);
 }
 
 .links {
@@ -38,3 +49,4 @@
 .imageLink {
     height: 40px;
 }
+
