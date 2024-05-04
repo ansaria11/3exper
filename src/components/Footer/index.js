@@ -43,15 +43,15 @@ export default function Footer() {
                     <p className={cn(s.title)}>Socials:</p>
                 </div>
                 <a href="https://www.instagram.com/radians_ye/" className={cn(s.socialLink)}>
-                    <img className={cn(s.socialIcon)} src="/3exper/images/instagram.png"/>
+                    <img className={cn(s.socialIcon)} src="./images/instagram.png"/>
                     <p className={cn(s.socialText)}>Instagram</p>
                 </a>
                 <a href="https://www.facebook.com/people/Radians-YE/pfbid0j4LgXBcLLXCxrBkMfethAQjgt7ncqaDF2SBEqAmR9Cuh2A5pHnjgTuZpqKpY2J6Tl/" className={cn(s.socialLink)}>
-                    <img className={cn(s.socialIcon)} src="/3exper/images/facebook.png"/>
+                    <img className={cn(s.socialIcon)} src="./images/facebook.png"/>
                     <p className={cn(s.socialText)}>Facebook</p>
                 </a>
                 <a className={cn(s.socialLink)}>
-                    <img className={cn(s.socialIcon)} src="/3exper/images/youtube.png"/>
+                    <img className={cn(s.socialIcon)} src="./images/youtube.png"/>
                     <p className={cn(s.socialText)}>Youtube</p>
                 </a>
             </div>

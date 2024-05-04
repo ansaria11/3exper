@@ -6,7 +6,7 @@ export default function DropdownMenu({className, text, children}) {
         <div className={cn(className, s.container)}>
             <div className={cn(s.textContainer)}>
                 {text}
-                <img className={cn(s.image)} src="/3exper/images/down-arrow.png"/>
+                <img className={cn(s.image)} src="./images/down-arrow.png"/>
             </div>
             
             <div className={cn(s.menuItems)}>
