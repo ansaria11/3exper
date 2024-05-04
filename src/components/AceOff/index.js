@@ -11,7 +11,7 @@ import { useLenis } from "@studio-freight/react-lenis"
 gsap.registerPlugin(ScrollTrigger)
 
 export function AceOffModel() {
-    const {scene: box} = useGLTF("models/FinishedAceOffBox.glb")
+    const {scene: box} = useGLTF("/3exper/models/FinishedAceOffBox.glb")
     const meshRef = useRef()
     box.position.set(0, 0, 0)
 
