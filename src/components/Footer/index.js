@@ -37,10 +37,7 @@ export default function Footer() {
                         
                     </div>
                 </div>
-                
             </div>
-            
-
             <div className={cn(s.socials)}>
                 <div className={cn(s.titleContainer)}>
                     <p className={cn(s.title)}>Socials:</p>
