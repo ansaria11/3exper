@@ -8,14 +8,10 @@ import s from "./aceoff.module.scss"
 import { MathUtils } from "three"
 import { useLenis } from "@studio-freight/react-lenis"
 
-gsap.registerPlugin(ScrollTrigger)
-
 export function AceOffModel() {
     const {scene: box} = useGLTF("/3exper/models/FinishedAceOffBox.glb")
     const meshRef = useRef()
     box.position.set(0, 0, 0)
-
-    
 
     useFrame((state, delta) => (meshRef.current.rotation.y += delta * 0.05))
     return <primitive object={box} ref={meshRef} rotation={[-Math.PI / 10, Math.PI, 0]}/>;
