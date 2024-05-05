@@ -25,7 +25,6 @@ export default function Home() {
   const introRef = useRef()
 
     const learnMoreFunc = () => {
-        console.log(introRef.current)
         lenis.scrollTo(introRef.current, {
           offset: 0, // Offset from the top (in pixels)
           duration: 1.5, // Duration of the scroll animation (in seconds)

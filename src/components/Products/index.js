@@ -20,7 +20,7 @@ export default function Products() {
                     <p className={cn(s.productText)}>Ace-Off!</p>
                 </div>
                 <div className={cn(s.product, s.p2)}>
-                    <img className={cn(s.image)}/>
+                    <img className={cn(s.image)}  src="./images/greensidewaysangled.png"/>
                     <p className={cn(s.productText)}>Ace-Off! Juniors</p>
                 </div>
                 <div className={cn(s.product, s.p3)}>
