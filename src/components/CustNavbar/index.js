@@ -24,10 +24,11 @@ export default function CustNavbar() {
                 <Link href="/products" className={cn(s.text)}>
                     Our Products
                 </Link>
-                <a className={cn(s.text)}>
+                <Link href="/blog" className={cn(s.text)}>
+                
                     Blog
-                </a>
-                <DropdownMenu className={cn(s.text)} text="Ace-Off!">
+                </Link>
+                <DropdownMenu className={cn(s.text)} text="And More!">
                     <Link className={cn(s.dropdownItem)} href="/howtoplay">
                         How To Play
                     </Link>
