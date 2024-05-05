@@ -21,7 +21,7 @@ export default function Products() {
                 </div>
                 <div className={cn(s.product, s.p2)}>
                     <img className={cn(s.image)}/>
-                    <p className={cn(s.productText)}>Ace-Off! Junior</p>
+                    <p className={cn(s.productText)}>Ace-Off! Juniors</p>
                 </div>
                 <div className={cn(s.product, s.p3)}>
                     <img className={cn(s.image)}/>

@@ -9,12 +9,12 @@ import { MathUtils } from "three"
 import { useLenis } from "@studio-freight/react-lenis"
 
 export function AceOffModel() {
-    const {scene: box} = useGLTF("./models/FinishedAceOffBox.glb")
+    const {scene: box} = useGLTF("./models/FinishedAceOffBox1.glb")
     const meshRef = useRef()
     box.position.set(0, 0, 0)
 
-    useFrame((state, delta) => (meshRef.current.rotation.y += delta * 0.05))
-    return <primitive object={box} ref={meshRef} rotation={[-Math.PI / 10, Math.PI, 0]}/>;
+    useFrame((state, delta) => (meshRef.current.rotation.z += delta * 0.05))
+    return <primitive object={box} ref={meshRef} rotation={[-Math.PI / 2 - 0, 0, Math.PI]}/>; 
 }
 
 

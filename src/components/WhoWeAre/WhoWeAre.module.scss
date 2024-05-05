@@ -1,5 +1,5 @@
 .container {
-    height: calc(100vh - 61px);
+    
 }
 
 .titleText {
@@ -18,4 +18,76 @@
 .gap {
     display: inline-block;
     width: 5vw;
+}
+
+.imageContainer {
+    position: relative;
+    height: 750px;
+    width: 800px;
+}
+
+.titleImage {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+}
+
+.ti1 {
+
+}
+
+.ti2 {
+    top: 200px;
+    left: 300px;
+}
+
+.ti3 {
+    top: 450px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: calc(100vh - 61px);
+    align-items: center;
+}
+
+.mainContent {
+    margin: 5% 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textColumn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+}
+
+.sectionTitle {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.sectionText {
+    font-size: 2em;
+}
+
+.mainImage {
+    width: 300px;
+    height: 180px;
+}
+
+.leftImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 15%;
+}
+
+.rightImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
