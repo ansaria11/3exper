@@ -28,22 +28,34 @@ export default function WhoWeAre() {
                     <img className={cn(s.mainImage)} src="./images/ourstory/jacobaward1.jpg"/>
                 </div>
                 <div className={cn(s.textColumn)}>
-                    <h1 className={cn(s.sectionTitle)}>The Mission</h1>
-                    <p className={cn(s.sectionText)}>
-                        We aim to inspire a lifelong love for math and equip students with the critical skills necessary for success. We know that studying can be boring,
-                        so we&apos;re here to help out.
-                    </p>
-                    <h1 className={cn(s.sectionTitle)}>The Plan</h1>
-                    <p className={cn(s.sectionText)}>
-                        We&apos;ve created an accessible card game that you can play anywhere, anytime, any way you want. We want to take the boring bits out of education, and allow
-                        people to enjoy the exciting and most interesting bits of maths, with no barrier to entry. We are currently in the process of rolling Ace-Off! out across the country.
-                    </p>
-                    <h1 className={cn(s.sectionTitle)}>Our Values</h1>
-                    <p className={cn(s.sectionText)}>
-                    Inclusivity: We want to make our product accessible to everyone, to ensure Ace-Off!  has a meaningful impact.
-                    Empowerment: We want to empower students with the necessary skills for success.
-                    Sustainability: We care about the future of our planet and want to ensure Ace-Off! contributes positively to  the environment.
-                    </p>
+                    <div className={cn(s.sectionContainer)}>
+                        <div>
+                            <h1 className={cn(s.sectionTitle)}>The Mission</h1>
+                        </div>
+                        <p className={cn(s.sectionText)}>
+                            We aim to inspire a lifelong love for math and equip students with the critical skills necessary for success. We know that studying can be boring,
+                            so we&apos;re here to help out.
+                        </p>
+                    </div>
+                    <div className={cn(s.sectionContainer)}>
+                        <div>
+                            <h1 className={cn(s.sectionTitle)}>The Plan</h1>
+                        </div>
+                        <p className={cn(s.sectionText)}>
+                            We&apos;ve created an accessible card game that you can play anywhere, anytime, any way you want. We want to take the boring bits out of education, and allow
+                            people to enjoy the exciting and most interesting bits of maths, with no barrier to entry. We are currently in the process of rolling Ace-Off! out across the country.
+                        </p>
+                    </div>
+                    <div className={cn(s.sectionContainer)}>
+                        <div>
+                            <h1 className={cn(s.sectionTitle)}>Our Values</h1>
+                        </div>
+                        <p className={cn(s.sectionText)}>
+                        Inclusivity: We want to make our product accessible to everyone, to ensure Ace-Off!  has a meaningful impact.
+                        Empowerment: We want to empower students with the necessary skills for success.
+                        Sustainability: We care about the future of our planet and want to ensure Ace-Off! contributes positively to  the environment.
+                        </p>
+                    </div>
                     <div className={cn(s.teamContainer)}>
                         
                     </div>

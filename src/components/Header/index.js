@@ -15,12 +15,12 @@ export default function Header({scrollFunc}) {
         <section className={cn(s.container)}>
             <div className={cn(s.textContainer, barlowTitle.className)}>
                 <h1 className={cn(s.h1)}><span className={cn(s.colouredWord)}>Defeating</span> the Education Gap</h1>
-                <h3 className={cn(s.h3, inter.className)}>One card at a time.</h3>
+                <h3 className={cn(s.h3, )}>One card at a time.</h3>
                 <div className={cn(s.buttonRow)}>
                     <CustButton className={cn(s.button1)} href="mailto:ansaria@stpaulsschool.org.uk">Get In Contact</CustButton>
                     <CustButton className={cn(s.button2)} onClick={scrollFunc}>Learn More</CustButton>
                 </div>
-                <div className={cn(s.scrollIndicator, inter.className)}>
+                <div className={cn(s.scrollIndicator, )}>
                     <img className={cn(s.mouseImg)} src="./images/mouse.svg"/>
                     <p className={cn(s.scrollText)}>scroll to explore</p>
                 </div>

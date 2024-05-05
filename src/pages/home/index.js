@@ -18,7 +18,7 @@ import { useLenis } from "@studio-freight/react-lenis";
 import { useRef } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
-//             <h2 className={cn("h3", s.radSlogan, inter.className)}>Defeating the education gap</h2>
+//             <h2 className={cn("h3", s.radSlogan, )}>Defeating the education gap</h2>
 export default function Home() {
   
   const lenis = useLenis()
@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <div className={cn(s.container, inter.className)}>
+        <div className={cn(s.container, )}>
             <Header scrollFunc={learnMoreFunc} />
             <Stats/>
             <Introduction inputRef={introRef} />

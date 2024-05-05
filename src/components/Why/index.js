@@ -7,8 +7,8 @@ const inter = Inter({subsets: ["latin"]})
 export default function Why() {
     return (
         <div className={cn(s.container)}>
-            <h1 className={cn(s.h1, inter.className)}>Seriously... A Card Game?</h1>
-            <div className={cn(s.cardContainer, inter.className)}>
+            <h1 className={cn(s.h1, )}>Seriously... A Card Game?</h1>
+            <div className={cn(s.cardContainer, )}>
                 <div className={cn(s.card)}>
                     <img src="./images/competition.png" className={cn(s.image)}/>
                     <h3 className={cn(s.cardTitle)}>Inspiring Competition</h3>

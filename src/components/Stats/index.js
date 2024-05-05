@@ -9,7 +9,7 @@ export default function Stats() {
     return (
         <div className={cn(s.containerCol)}>
             <TopDiv/>
-            <div className={cn(s.container, inter.className)}>
+            <div className={cn(s.container, )}>
                 <div className={cn(s.statRow)}>
                     <p><span className={cn(s.highlightedText)}>37%</span> of students felt completely dissatisfied with their education</p>
                 </div>

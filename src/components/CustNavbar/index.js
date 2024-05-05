@@ -17,7 +17,7 @@ export default function CustNavbar() {
                 </Link>
                 
             </div>
-            <div className={cn(s.links, inter.className)}>
+            <div className={cn(s.links, )}>
                 <Link href="/about" className={cn(s.text)}>
                     About Us 
                 </Link>
