@@ -77,7 +77,7 @@ export default function VideoSolutions() {
             <p className={cn(s.title)}>Video Solutions</p>
             <div className={cn(s.guideContainer)}>
                 <div className={cn(s.videoSelector)}>
-                    <p className={s.selectText}>Question </p>
+                    <p className={s.selectText}>Question(1-56): </p>
                     <div>
                         <input ref={inputRef} type="number" min="1" max="56" className={cn(s.input)} defaultValue={1} onBlur={() => videoSelector()}/>
                     </div>
