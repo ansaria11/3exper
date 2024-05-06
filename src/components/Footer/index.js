@@ -50,7 +50,7 @@ export default function Footer() {
                     <img className={cn(s.socialIcon)} src="./images/facebook.png"/>
                     <p className={cn(s.socialText)}>Facebook</p>
                 </a>
-                <a className={cn(s.socialLink)}>
+                <a href="https://www.youtube.com/channel/UCNchYJuA5Rcvf6BFHaap1ZA" className={cn(s.socialLink)}>
                     <img className={cn(s.socialIcon)} src="./images/youtube.png"/>
                     <p className={cn(s.socialText)}>Youtube</p>
                 </a>
