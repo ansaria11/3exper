@@ -1,27 +1,44 @@
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    
+    padding: 10em 0;
 }
-.containerCol {
-    background-color: hsla(193, 86%, 33%, 0.1);
+
+.container1 {
+    background-color: rgba(12,125,157,.1);
     display: flex;
     flex-direction: column;
-    margin: 5% 0;
 }
-.statRow {
+
+.titleContainer {
     display: flex;
-    flex-direction: row;
-    font-size: 3em;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-
-    border-radius: 20px;
 }
 
-.highlightedText {
-    color: #42caf0;
-    font-size: 1.3em;
-    font-weight: 500;
+.titleText {
+    margin: 0;
+    font-size: 6em;
+    line-height: 0.8;
+    font-weight: 600;
+}
+
+.statsContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.stat {
+    font-size: 2.3em;
+    display: flex;
+    gap: 6%;
+}
+
+.statImage {
+    object-fit: fill;
+    height: 1.5em;
+
+    align-self: center;
 }
