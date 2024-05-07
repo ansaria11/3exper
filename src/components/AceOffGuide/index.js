@@ -22,8 +22,7 @@ export default function AceOffGuide() {
                     <div className={cn(s.textContainer)}>
                         <h2 className={cn(s.instructionTitleText)}>2. Roll the Dice</h2>
                         <p className={cn(s.instructionMainText)}>
-                            The roll will determine the value of the the variable &quot;n&quot;, so be sure
-                            to start solving as soon as the dice finished rolling. Speed is the essence of Ace-Off!
+                            The roll will determine the value of the the variable &quot;n&quot;. Keep it in place, you will need &quot;n&quot; to answer the questions
 
                         </p>
                     </div>
@@ -35,8 +34,8 @@ export default function AceOffGuide() {
                     <div className={cn(s.textContainer)}>
                         <h2 className={cn(s.instructionTitleText)}>3. Draw a Card</h2>
                         <p className={cn(s.instructionMainText)}>  
-                            Draw from the top of the deck, and flip the card to reveal the question. Don&apos;t start solving yet
-                            though, as the variable &quot;n&quot; will determing the numbers for the question.
+                            Draw from the top of the deck, and flip the card to reveal the question. Read the Questions, and replace the &quot;n&quot; in the questions with the dice&apos;s value. 
+                            Then you can began solving! Speed is key in Ace-Off!
                         </p>
                     </div>
                     <div className={s.imageContainer}>

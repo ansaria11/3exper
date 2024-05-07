@@ -63,9 +63,7 @@ return (<div className={cn(s.container)}>
                 <h3 className={cn(s.sectionTitle)}>Blog Entry 5: Wednesday 1st November 2023</h3>
                 <div className={cn(s.entry)}>
                     <p className={cn(s.entryText)}>
-                        Ace-Off! contains 56 unique questions, each one specifically designed to involve real-world aspects while showing off how useful maths can truly be.
-                        The cards span a range of difficulties, from green to red, meaning that no matter your mathematic skill, there will always be a card for you.
-                    </p>
+In our journey through the Young Enterprise program, our recent interaction with Company Connect proved enlightening and productive. During this meeting, we delved deeper into the program's framework and regulations, gaining valuable insights into how to navigate its intricacies effectively.                    </p>
                 </div>
             </div>
             <div className={cn(s.sectionContainer)}>
@@ -83,8 +81,7 @@ return (<div className={cn(s.container)}>
                 <h3 className={cn(s.sectionTitle)}>Blog Entry 7: Wednesday 15th November 2023</h3>
                 <div className={cn(s.entry)}>
                     <p className={cn(s.entryText)}>
-                        Ace-Off! contains 56 unique questions, each one specifically designed to involve real-world aspects while showing off how useful maths can truly be.
-                        The cards span a range of difficulties, from green to red, meaning that no matter your mathematic skill, there will always be a card for you.
+                Amidst the lively atmosphere of the SPGS fair, we distinguished ourselves with an interactive game that sparked excitement at the fair. ⁤⁤Our team invested creativity and effort into designing a game that not only provided entertainment but also allowed us to have the monetary gains required for the development of our card game.
                     </p>
                 </div>
             </div>
@@ -213,7 +210,7 @@ return (<div className={cn(s.container)}>
                         <br></br>
                         <br></br>
 
-                        In time, Elliot (or our creative minds) came up with an idea during our next meeting featuring junior school kids in our ad. Since our game focuses on kids, this concept instantly clicked with the team. After some discussion about possible concerns, with everyone&apos;s approval of the idea, we swiftly put the plan into action.
+                        In time, our team member Elliot came up with an idea during our next meeting featuring junior school kids in our ad. Since our game focuses on kids, this concept instantly clicked with the team. After some discussion about possible concerns, with everyone&apos;s approval of the idea, we swiftly put the plan into action.
                     </p>
                 </div>
             </div>
@@ -247,27 +244,7 @@ return (<div className={cn(s.container)}>
                     </p>
                 </div>
             </div>
-            <div className={cn(s.sectionContainer)}>
-                <h3 className={cn(s.sectionTitle)}>Blog Entry 19</h3>
-                <div className={cn(s.entry)}>
-                    <p className={cn(s.entryText)}>
-
-
-
-                    </p>
-                </div>
-            </div>
-            <div className={cn(s.sectionContainer)}>
-                <h3 className={cn(s.sectionTitle)}>Blog Entry 20</h3>
-                <div className={cn(s.entry)}>
-                    <p className={cn(s.entryText)}>
-
-
-
-                    </p>
-                </div>
-            </div>
-
+            
            
         </div>
         );
