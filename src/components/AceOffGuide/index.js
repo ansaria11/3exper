@@ -15,7 +15,7 @@ export default function AceOffGuide() {
                         </p>
                     </div>
                     <div className={s.imageContainer}>
-                        <img/>
+                        <img className={cn(s.icon)} src="./images/guide/1.jpg" /><img />
                     </div>
                 </div>
                 <div className={cn(s.stepCard)}>
@@ -27,7 +27,7 @@ export default function AceOffGuide() {
                         </p>
                     </div>
                     <div className={s.imageContainer}>
-                        <img/>
+                        <img className={cn(s.icon)} src="./images/guide/2.jpg" /><img />
                     </div>
                 </div>
                 <div className={cn(s.stepCard)}>
@@ -39,7 +39,7 @@ export default function AceOffGuide() {
                         </p>
                     </div>
                     <div className={s.imageContainer}>
-                        <img/>
+                        <img className={cn(s.icon)} src="./images/guide/3.jpg" /><img />
                     </div>
                 </div>
                 <div className={cn(s.stepCard)}>
@@ -51,7 +51,7 @@ export default function AceOffGuide() {
                         </p>
                     </div>
                     <div className={s.imageContainer}>
-                        <img/>
+                        <img className={cn(s.icon)} src="./images/guide/4.jpg" /><img />
                     </div>
                 </div>
                 <div className={cn(s.stepCard)}>
@@ -64,7 +64,7 @@ export default function AceOffGuide() {
                         </p>
                     </div>
                     <div className={s.imageContainer}>
-                        <img/>
+                        <img className={cn(s.icon)} src="./images/guide/5.jpg" /><img />
                     </div>
                 </div>
                 <div className={cn(s.stepCard)}>
@@ -76,7 +76,7 @@ export default function AceOffGuide() {
                         </p>
                     </div>
                     <div className={s.imageContainer}>
-                        <img/>
+                        <img className={cn(s.icon)} src="./images/guide/6.jpg" /><img />
                     </div>
                 </div>
             </div>
