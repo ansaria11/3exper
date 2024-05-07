@@ -18,7 +18,7 @@ export default function Layout({children}) {
         <>
             <ReactLenis root>
                 <main>
-                    <div className={cn(s.layout, inter.className)}>
+                    <div className={cn(s.layout, )}>
                         <CustNavbar/>
                         {children}
                         <Footer/>

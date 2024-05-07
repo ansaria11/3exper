@@ -12,6 +12,7 @@ export function AceOffModel() {
     const {scene: box} = useGLTF("./models/FinishedAceOffBox1.glb")
     const meshRef = useRef()
     box.position.set(0, 0, 0)
+    
 
     useFrame((state, delta) => (meshRef.current.rotation.z += delta * 0.05))
     return <primitive object={box} ref={meshRef} rotation={[-Math.PI / 2 - 0, 0, Math.PI]}/>; 
@@ -25,8 +26,8 @@ export default function AceOff(props) {
         <Canvas className={cn(s.canvas1)}>
             <AceOffModel/>
             <PerspectiveCamera makeDefault position={[0,0,2.5]}/>
-            <ambientLight intensity={3}/>
-            <pointLight ref={plRef} position={[0,0,6]} intensity={3}/>
+            <ambientLight intensity={3.5}/>
+
         </Canvas>
     )
 }

@@ -29,7 +29,7 @@ export default function Products() {
                 </div>
                 <div className={cn(s.product, s.p4)}>
                     <img className={cn(s.image)}/>
-                    <p className={cn(s.productText)}>Inclusive     Ace-Off!</p>
+                    <p className={cn(s.productText)}>Inclusive Ace-Off!</p>
                 </div>
             </div>
         </div>
