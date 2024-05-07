@@ -20,10 +20,11 @@ export default function AceOffGuide() {
                 </div>
                 <div className={cn(s.stepCard)}>
                     <div className={cn(s.textContainer)}>
-                        <h2 className={cn(s.instructionTitleText)}>3. Draw a Card</h2>
+                        <h2 className={cn(s.instructionTitleText)}>2. Roll the Dice</h2>
                         <p className={cn(s.instructionMainText)}>
-                            Draw from the top of the deck, and flip the card to reveal the question. Don&apos;t start solving yet
-                            though, as the variable &quot;n&quot; will determing the numbers for the question.
+                            The roll will determine the value of the the variable &quot;n&quot;, so be sure
+                            to start solving as soon as the dice finished rolling. Speed is the essence of Ace-Off!
+
                         </p>
                     </div>
                     <div className={s.imageContainer}>
@@ -32,10 +33,10 @@ export default function AceOffGuide() {
                 </div>
                 <div className={cn(s.stepCard)}>
                     <div className={cn(s.textContainer)}>
-                        <h2 className={cn(s.instructionTitleText)}>3. Roll the Dice</h2>
-                        <p className={cn(s.instructionMainText)}>
-                            The roll will determine the value of the the variable &quot;n&quot;, so be sure
-                            to start solving as soon as the dice finished rolling. Speed is the essence of Ace-Off!
+                        <h2 className={cn(s.instructionTitleText)}>3. Draw a Card</h2>
+                        <p className={cn(s.instructionMainText)}>  
+                            Draw from the top of the deck, and flip the card to reveal the question. Don&apos;t start solving yet
+                            though, as the variable &quot;n&quot; will determing the numbers for the question.
                         </p>
                     </div>
                     <div className={s.imageContainer}>

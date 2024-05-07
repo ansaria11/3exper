@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/products": "pages/products.js",
-  "/blog": "pages/blog.js",
+  "/howtoplay": "pages/howtoplay.js",
   "/videosolutions": "pages/videosolutions.js",
-  "/howtoplay": "pages/howtoplay.js"
+  "/": "pages/index.js"
 }
