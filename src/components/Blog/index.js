@@ -63,7 +63,7 @@ return (<div className={cn(s.container)}>
                 <h3 className={cn(s.sectionTitle)}>Blog Entry 5: Wednesday 1st November 2023</h3>
                 <div className={cn(s.entry)}>
                     <p className={cn(s.entryText)}>
-In our journey through the Young Enterprise program, our recent interaction with Company Connect proved enlightening and productive. During this meeting, we delved deeper into the program's framework and regulations, gaining valuable insights into how to navigate its intricacies effectively.                    </p>
+In our journey through the Young Enterprise program, our recent interaction with Company Connect proved enlightening and productive. During this meeting, we delved deeper into the program&apos;s framework and regulations, gaining valuable insights into how to navigate its intricacies effectively.                    </p>
                 </div>
             </div>
             <div className={cn(s.sectionContainer)}>
