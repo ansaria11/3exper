@@ -5,7 +5,7 @@ import cn from "clsx"
 
 export default function VideoSolutions() {
 
-    const [curQuestion, setQuestion] = useState("")
+    const [curQuestion, setQuestion] = useState("nmpfA9fK5wM")
     const inputRef = useRef()
 
 
