@@ -31,7 +31,7 @@ export default function Footer() {
                             <p className={cn(s.inputText)}>Message:</p>
                             <textarea className={cn(s.mainInputBox)} rows={5} type="text" placeholder="Message" name="Message"/>
                         </div>
-                            <CustButton className={cn(s.submitButton)}>
+                            <CustButton href="mailto:aeroflowsps@gmail.com" className={cn(s.submitButton)}>
                             Submit
                             </CustButton>
                         
