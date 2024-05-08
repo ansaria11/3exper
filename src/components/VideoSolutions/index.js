@@ -5,7 +5,7 @@ import cn from "clsx"
 
 export default function VideoSolutions() {
 
-    const [curQuestion, setQuestion] = useState("nmpfA9fK5wM")
+    const [curQuestion, setQuestion] = useState("https://www.youtube.com/embed/nmpfA9fK5wM")
     const inputRef = useRef()
 
 
@@ -86,7 +86,6 @@ export default function VideoSolutions() {
                     <iframe className={s.videoEmbed} src={curQuestion}/>
                 </div>
             </div>
-            
         </div>
     )
 }
